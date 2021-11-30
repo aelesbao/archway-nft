@@ -39,7 +39,7 @@
   "developer": {
     "dApp": {
       "gasPoolContract": null,
-      "rewardAddress": null,
+      "rewardAddress": "archway150y7h3ctmx8af2lh48ll0d55j5zy74u6657ldp",
       "gasRebate": false,
       "collectPremium": false,
       "premiumPercentage": 0
@@ -54,7 +54,20 @@
     "archwayd": {
       "docker": true
     },
-    "deployments": []
+    "deployments": [
+      {
+        "type": "instatiate",
+        "address": "archway1amledw52sm6l4hzpp2aqcvatjtth940lxpqtlf",
+        "chainId": "constantine-1",
+        "data": "{\"height\":\"795885\",\"txhash\":\"2AE6BFD7FF5F90B800AD88B0B55B96821315E2C2307971BCADDD23DF6501FD14\",\"data\":\"0A3F0A0B696E7374616E746961746512300A2E6172636877617931616D6C6564773532736D366C34687A7070326171637661746A7474683934306C787071746C66\",\"raw_log\":\"[{\\\"events\\\":[{\\\"type\\\":\\\"instantiate\\\",\\\"attributes\\\":[{\\\"key\\\":\\\"_contract_address\\\",\\\"value\\\":\\\"archway1amledw52sm6l4hzpp2aqcvatjtth940lxpqtlf\\\"},{\\\"key\\\":\\\"code_id\\\",\\\"value\\\":\\\"93\\\"}]},{\\\"type\\\":\\\"message\\\",\\\"attributes\\\":[{\\\"key\\\":\\\"action\\\",\\\"value\\\":\\\"instantiate\\\"},{\\\"key\\\":\\\"module\\\",\\\"value\\\":\\\"wasm\\\"},{\\\"key\\\":\\\"sender\\\",\\\"value\\\":\\\"archway150y7h3ctmx8af2lh48ll0d55j5zy74u6657ldp\\\"}]}]}]\",\"logs\":[{\"events\":[{\"type\":\"instantiate\",\"attributes\":[{\"key\":\"_contract_address\",\"value\":\"archway1amledw52sm6l4hzpp2aqcvatjtth940lxpqtlf\"},{\"key\":\"code_id\",\"value\":\"93\"}]},{\"type\":\"message\",\"attributes\":[{\"key\":\"action\",\"value\":\"instantiate\"},{\"key\":\"module\",\"value\":\"wasm\"},{\"key\":\"sender\",\"value\":\"archway150y7h3ctmx8af2lh48ll0d55j5zy74u6657ldp\"}]}]}],\"gas_wanted\":\"180325\",\"gas_used\":\"149808\"}"
+      },
+      {
+        "type": "create",
+        "codeId": "93",
+        "chainId": "constantine-1",
+        "data": "{\"height\":\"795879\",\"txhash\":\"AE73A6FC329C67F5F2CD974954F92F24745B20A8163312136A0F075B565BB7D2\",\"data\":\"0A100A0A73746F72652D636F64651202085D\",\"raw_log\":\"[{\\\"events\\\":[{\\\"type\\\":\\\"message\\\",\\\"attributes\\\":[{\\\"key\\\":\\\"action\\\",\\\"value\\\":\\\"store-code\\\"},{\\\"key\\\":\\\"module\\\",\\\"value\\\":\\\"wasm\\\"},{\\\"key\\\":\\\"sender\\\",\\\"value\\\":\\\"archway150y7h3ctmx8af2lh48ll0d55j5zy74u6657ldp\\\"}]},{\\\"type\\\":\\\"store_code\\\",\\\"attributes\\\":[{\\\"key\\\":\\\"code_id\\\",\\\"value\\\":\\\"93\\\"}]}]}]\",\"logs\":[{\"events\":[{\"type\":\"message\",\"attributes\":[{\"key\":\"action\",\"value\":\"store-code\"},{\"key\":\"module\",\"value\":\"wasm\"},{\"key\":\"sender\",\"value\":\"archway150y7h3ctmx8af2lh48ll0d55j5zy74u6657ldp\"}]},{\"type\":\"store_code\",\"attributes\":[{\"key\":\"code_id\",\"value\":\"93\"}]}]}],\"gas_wanted\":\"1664535\",\"gas_used\":\"1293669\"}"
+      }
+    ]
   },
   "path": "/Users/aelesbao/workspace/sandbox/archway-contracts/archway-nft",
   "type": {
